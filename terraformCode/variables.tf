@@ -14,3 +14,7 @@ variable "key_name" {
 variable "ami_id" {
   default = "ami-0bc57fba09bf88fed"
 }
+
+variable "bucket" {
+  default = "my-terraform-state-bucket-madhan13"
+}

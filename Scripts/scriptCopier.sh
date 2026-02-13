@@ -1,1 +1,3 @@
-scp -i ../Downloads/terraform-key.pem logScript.sh ubuntu@13.234.76.5:/home/ubuntu/
+#!/bin/bash
+source config.env
+scp -i ../../Downloads/terraform-key.pem logScript.sh ubuntu@$ip_addr:/home/ubuntu/
